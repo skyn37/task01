@@ -1,0 +1,26 @@
+{
+    "development": {
+      "database": "stocky",
+      "host": "127.0.0.1",
+      "dialect": "postgres",
+      "logging": false,
+      "username": "postgres",
+      "password": "1234",
+      "port": "5432"
+    },
+    "test": {
+      "database": "stocky",
+      "host": "127.0.0.1",
+      "dialect": "postgres",
+      "logging": false,
+      "username": "postgres",
+      "password": "1234",
+      "port": "5432"
+    },
+    "production": {
+      "use_env_variable": "DATABASE_URL",
+      "ssl": true,
+      "logging": false
+    }
+  }
+  
